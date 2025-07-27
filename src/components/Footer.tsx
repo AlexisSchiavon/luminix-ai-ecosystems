@@ -28,10 +28,10 @@ const Footer = () => {
             <div className="space-y-4">
               <h4 className="text-lg font-semibold">Servicios</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><button onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-primary transition-colors">Infraestructuras IA</button></li>
-                <li><button onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-primary transition-colors">Agentes Especializados</button></li>
-                <li><button onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-primary transition-colors">Sistemas RAG</button></li>
-                <li><button onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-primary transition-colors">CRM Inteligente</button></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Infraestructuras IA</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Agentes Especializados</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Sistemas RAG</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">CRM Inteligente</a></li>
               </ul>
             </div>
 
@@ -39,9 +39,10 @@ const Footer = () => {
             <div className="space-y-4">
               <h4 className="text-lg font-semibold">Empresa</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><button onClick={() => document.getElementById('value-proposition')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-primary transition-colors">Sobre Nosotros</button></li>
-                <li><button onClick={() => document.getElementById('faq')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-primary transition-colors">Preguntas Frecuentes</button></li>
-                <li><button onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })} className="hover:text-primary transition-colors">Contacto</button></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Sobre Nosotros</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Casos de Éxito</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
+                <li><a href="#" className="hover:text-primary transition-colors">Contacto</a></li>
               </ul>
             </div>
           </div>
