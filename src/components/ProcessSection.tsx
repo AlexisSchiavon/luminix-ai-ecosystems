@@ -5,30 +5,23 @@ const ProcessSection = () => {
     {
       icon: Search,
       number: "01",
-      title: "Mapeo Digital",
-      description: "Analizamos tu operación actual y definimos objetivos específicos",
-      details: ["Auditoría completa", "Identificación de oportunidades", "Definición de KPIs", "Roadmap personalizado"]
-    },
-    {
-      icon: Cpu,
-      number: "02", 
-      title: "Arquitectura Personalizada",
-      description: "Diseñamos tu ecosistema IA adaptado a tu flujo de trabajo",
-      details: ["Diseño de agentes", "Integración de sistemas", "Configuración CRM", "Dashboard personalizado"]
+      title: "Análisis & Diseño",
+      description: "Mapeamos tu operación y diseñamos tu ecosistema personalizado",
+      details: ["Auditoría completa", "Arquitectura IA personalizada"]
     },
     {
       icon: Rocket,
-      number: "03",
-      title: "Despliegue Inteligente",
-      description: "Implementamos y entrenamos los agentes con datos de tu negocio",
-      details: ["Migración de datos", "Entrenamiento IA", "Pruebas exhaustivas", "Go-live asistido"]
+      number: "02",
+      title: "Implementación",
+      description: "Desplegamos y entrenamos los agentes con datos de tu negocio",
+      details: ["Migración de datos", "Entrenamiento IA", "Go-live asistido"]
     },
     {
       icon: TrendingUp,
-      number: "04",
-      title: "Evolución Continua",
-      description: "Optimizamos y escalamos basado en resultados reales",
-      details: ["Monitoreo 24/7", "Optimizaciones automáticas", "Reportes mensuales", "Evolución constante"]
+      number: "03",
+      title: "Optimización Continua",
+      description: "Tu ecosistema aprende y mejora automáticamente cada día",
+      details: ["Monitoreo 24/7", "Evolución automática", "Reportes mensuales"]
     }
   ];
 
@@ -51,7 +44,7 @@ const ProcessSection = () => {
             {/* Connection Line */}
             <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-primary/20 via-primary/50 to-primary/20 transform -translate-y-1/2 hidden lg:block" />
             
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {steps.map((step, index) => (
                 <div 
                   key={index}
@@ -100,18 +93,14 @@ const ProcessSection = () => {
           <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-3xl p-8 border border-primary/10">
             <div className="text-center space-y-4">
               <h3 className="text-2xl font-bold">Timeline de Implementación</h3>
-              <div className="flex flex-wrap justify-center gap-8 text-center">
+              <div className="flex flex-wrap justify-center gap-12 text-center">
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-primary">Semana 1-2</div>
-                  <div className="text-sm text-muted-foreground">Mapeo y Diseño</div>
+                  <div className="text-4xl font-bold text-primary">15 días</div>
+                  <div className="text-sm text-muted-foreground">Ecosistema funcionando</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-primary">Semana 3</div>
-                  <div className="text-sm text-muted-foreground">Implementación</div>
-                </div>
-                <div className="space-y-2">
-                  <div className="text-3xl font-bold text-primary">Día 1+</div>
-                  <div className="text-sm text-muted-foreground">Optimización Continua</div>
+                  <div className="text-4xl font-bold text-primary">24/7</div>
+                  <div className="text-sm text-muted-foreground">Operación autónoma</div>
                 </div>
               </div>
             </div>

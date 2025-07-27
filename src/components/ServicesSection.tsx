@@ -5,39 +5,25 @@ const ServicesSection = () => {
   const mainServices = [
     {
       icon: Brain,
-      title: "Infraestructuras IA Completas",
-      description: "Ecosistema todo-en-uno para tu e-commerce",
+      title: "Ecosistema IA Completo",
+      description: "CRM inteligente + Agentes especializados + Analytics predictivo",
       features: [
-        "CRM Inteligente Integrado: Gestión unificada con scoring automático",
-        "Agente IA Multifuncional: Ventas, soporte y upselling",
-        "Entorno Colaborativo: Dashboard centralizado para tu equipo",
-        "Analytics Predictivo: Forecasting de ventas y comportamiento"
+        "CRM con scoring automático y segmentación predictiva",
+        "Agentes IA para ventas, soporte y recuperación de carritos",
+        "Dashboard colaborativo centralizado para tu equipo"
       ],
       gradient: "from-purple-500/10 to-blue-500/10"
     },
     {
       icon: Bot,
-      title: "Agentes de IA Especializados",
-      description: "Cada agente domina una función específica",
+      title: "Agentes Autónomos",
+      description: "IA que vende, asiste y analiza 24/7",
       features: [
-        "Consultor de ventas virtual que cierra deals",
-        "Especialista en recuperación de carritos abandonados",
-        "Asistente de inventario y recomendaciones",
-        "Gestor de quejas y satisfacción del cliente"
+        "Consultor virtual que cierra ventas automáticamente",
+        "Soporte inteligente que resuelve el 90% de consultas",
+        "Analista que predice oportunidades antes de que aparezcan"
       ],
       gradient: "from-green-500/10 to-purple-500/10"
-    },
-    {
-      icon: Search,
-      title: "Sistemas RAG Avanzados",
-      description: "Conocimiento contextual e inteligente",
-      features: [
-        "Motor de búsqueda conversacional para productos",
-        "Base de conocimiento inteligente sobre tu negocio",
-        "Respuestas contextuales basadas en historial",
-        "Actualización automática de información"
-      ],
-      gradient: "from-blue-500/10 to-teal-500/10"
     }
   ];
 
@@ -96,25 +82,26 @@ const ServicesSection = () => {
             ))}
           </div>
 
-          {/* Specialized Agents Grid */}
-          <div className="space-y-8">
-            <h3 className="text-3xl font-bold text-center">
-              Agentes Especializados que <span className="text-primary">Transforman</span> tu Negocio
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {specializedAgents.map((agent, index) => (
-                <div 
-                  key={index}
-                  className="card-glow text-center space-y-4 hover:border-primary/50 transition-all duration-300"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <div className="service-icon mx-auto">
-                    <agent.icon className="w-6 h-6" />
-                  </div>
-                  <h4 className="font-semibold text-lg">{agent.name}</h4>
-                  <p className="text-muted-foreground text-sm">{agent.description}</p>
+          {/* Key Features */}
+          <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-3xl p-12 text-center border border-primary/10">
+            <div className="max-w-4xl mx-auto space-y-8">
+              <h3 className="text-3xl font-bold">
+                Resultados que <span className="gradient-text">Transforman</span> tu Negocio
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="space-y-2">
+                  <div className="text-4xl font-bold text-primary">300%</div>
+                  <div className="text-muted-foreground">Aumento en conversiones</div>
                 </div>
-              ))}
+                <div className="space-y-2">
+                  <div className="text-4xl font-bold text-primary">15 días</div>
+                  <div className="text-muted-foreground">Implementación completa</div>
+                </div>
+                <div className="space-y-2">
+                  <div className="text-4xl font-bold text-primary">24/7</div>
+                  <div className="text-muted-foreground">Operación autónoma</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

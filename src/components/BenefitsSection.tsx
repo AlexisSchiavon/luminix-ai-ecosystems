@@ -4,38 +4,20 @@ const BenefitsSection = () => {
   const benefits = [
     {
       icon: Rocket,
-      title: "Ecosistema Todo-en-Uno",
-      description: "Tu equipo accede a CRM, agentes IA y analytics desde una sola plataforma intuitiva",
+      title: "Ecosistema Unificado",
+      description: "CRM, agentes IA y analytics en una sola plataforma que tu equipo dominará en días",
       emoji: "🚀"
     },
     {
       icon: Target,
-      title: "Agentes IA Especializados", 
-      description: "Cada agente tiene roles específicos: vendedor, soporte, analista, recuperador de ventas",
+      title: "IA que Aprende Continuamente", 
+      description: "Cada interacción mejora el sistema, cada venta optimiza el proceso automáticamente",
       emoji: "🎯"
-    },
-    {
-      icon: Wrench,
-      title: "Entorno de Trabajo Inteligente",
-      description: "Tu equipo colabora con IA para 10x su productividad y resultados",
-      emoji: "🔧"
-    },
-    {
-      icon: BarChart3,
-      title: "Visibilidad Total",
-      description: "Métricas en tiempo real de conversiones, satisfacción y ROI por cada interacción",
-      emoji: "📊"
-    },
-    {
-      icon: Link,
-      title: "Integración Nativa",
-      description: "Compatible con Shopify, WooCommerce, redes sociales y herramientas existentes",
-      emoji: "🔗"
     },
     {
       icon: Zap,
       title: "Implementación Express",
-      description: "Tu ecosistema funcionando en 10-15 días con migración de datos incluida",
+      description: "Tu ecosistema funcionando en 15 días con integración completa y entrenamiento incluido",
       emoji: "⚡"
     }
   ];
@@ -55,8 +37,8 @@ const BenefitsSection = () => {
             </p>
           </div>
 
-          {/* Benefits Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+           {/* Benefits Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {benefits.map((benefit, index) => (
               <div 
                 key={index}
