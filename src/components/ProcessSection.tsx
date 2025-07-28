@@ -26,7 +26,7 @@ const ProcessSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-tech-gray-light to-background">
+    <section id="proceso" className="py-24 bg-gradient-to-b from-tech-gray-light to-background">
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto space-y-16">
           {/* Header */}

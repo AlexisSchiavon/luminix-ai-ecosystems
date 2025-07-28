@@ -1,3 +1,4 @@
+import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import ValuePropositionSection from '@/components/ValuePropositionSection';
 import ServicesSection from '@/components/ServicesSection';
@@ -8,7 +9,7 @@ import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 
 const VideoSection = () => (
-  <section className="py-16 bg-background">
+  <section id="video" className="py-16 bg-background">
     <div className="container mx-auto px-6">
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <h2 className="text-3xl lg:text-4xl font-bold">
@@ -31,12 +32,13 @@ const VideoSection = () => (
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <Navigation />
       <HeroSection />
+      <VideoSection />
       <ValuePropositionSection />
       <ServicesSection />
       <BenefitsSection />
       <ProcessSection />
-      <VideoSection />
       <CTASection />
       <FAQSection />
       <Footer />

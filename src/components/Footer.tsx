@@ -1,8 +1,15 @@
 import { Sparkles } from 'lucide-react';
 
 const Footer = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <footer className="bg-tech-black text-white py-16">
+    <footer id="contacto" className="bg-tech-black text-white py-16">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Main Footer Content */}
@@ -24,14 +31,42 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Services */}
+            {/* Navigation */}
             <div className="space-y-4">
-              <h4 className="text-lg font-semibold">Servicios</h4>
+              <h4 className="text-lg font-semibold">Navegación</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-primary transition-colors">Infraestructuras IA</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Agentes Especializados</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Sistemas RAG</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">CRM Inteligente</a></li>
+                <li>
+                  <button 
+                    onClick={() => scrollToSection('video')}
+                    className="hover:text-primary transition-colors text-left"
+                  >
+                    Video Explicativo
+                  </button>
+                </li>
+                <li>
+                  <button 
+                    onClick={() => scrollToSection('servicios')}
+                    className="hover:text-primary transition-colors text-left"
+                  >
+                    Servicios
+                  </button>
+                </li>
+                <li>
+                  <button 
+                    onClick={() => scrollToSection('beneficios')}
+                    className="hover:text-primary transition-colors text-left"
+                  >
+                    Beneficios
+                  </button>
+                </li>
+                <li>
+                  <button 
+                    onClick={() => scrollToSection('proceso')}
+                    className="hover:text-primary transition-colors text-left"
+                  >
+                    Implementación
+                  </button>
+                </li>
               </ul>
             </div>
 
@@ -39,10 +74,22 @@ const Footer = () => {
             <div className="space-y-4">
               <h4 className="text-lg font-semibold">Empresa</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><a href="#" className="hover:text-primary transition-colors">Sobre Nosotros</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Casos de Éxito</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Contacto</a></li>
+                <li>
+                  <button 
+                    onClick={() => scrollToSection('hero')}
+                    className="hover:text-primary transition-colors text-left"
+                  >
+                    Sobre Nosotros
+                  </button>
+                </li>
+                <li>
+                  <button 
+                    onClick={() => scrollToSection('contacto')}
+                    className="hover:text-primary transition-colors text-left"
+                  >
+                    Contacto
+                  </button>
+                </li>
               </ul>
             </div>
           </div>

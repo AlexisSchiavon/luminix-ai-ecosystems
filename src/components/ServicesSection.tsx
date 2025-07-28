@@ -35,7 +35,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-background">
+    <section id="servicios" className="py-24 bg-background">
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto space-y-20">
           {/* Header */}
