@@ -38,6 +38,7 @@ const CTASection = () => {
             <Button 
               size="lg" 
               className="btn-hero pulse-purple group text-xl px-12 py-6"
+              onClick={() => window.open('https://calendly.com/alexis-schiavon/consultoria-gratuita-con-ia-en-clave', '_blank')}
             >
               Evaluar mi E-commerce Gratis
               <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />

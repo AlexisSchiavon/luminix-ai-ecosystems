@@ -1,4 +1,3 @@
-import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import ValuePropositionSection from '@/components/ValuePropositionSection';
 import ServicesSection from '@/components/ServicesSection';
@@ -32,7 +31,6 @@ const VideoSection = () => (
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Navigation />
       <HeroSection />
       <VideoSection />
       <ValuePropositionSection />
