@@ -64,15 +64,6 @@ const CTASection = () => {
             </div>
           </div>
 
-          {/* Bottom Note */}
-          <div className="bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 rounded-2xl p-8 border border-primary/10">
-            <p className="text-lg text-muted-foreground">
-              <span className="text-primary font-semibold">Próximo cupo disponible:</span> Febrero 2025
-            </p>
-            <p className="text-sm text-muted-foreground mt-2">
-              Únete a la lista prioritaria para acceso anticipado
-            </p>
-          </div>
         </div>
       </div>
     </section>
