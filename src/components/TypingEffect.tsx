@@ -11,6 +11,12 @@ const TypingEffect = ({ text, speed = 100, className = "" }: TypingEffectProps) 
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
+    // Reset when text changes
+    setDisplayText('');
+    setCurrentIndex(0);
+  }, [text]);
+
+  useEffect(() => {
     if (currentIndex < text.length) {
       const timeout = setTimeout(() => {
         setDisplayText(prev => prev + text[currentIndex]);
