@@ -31,14 +31,14 @@ const ValuePropositionSection = () => {
           {/* Header */}
           <div className="text-center space-y-6">
             <h2 className="text-4xl lg:text-6xl font-bold">
-              El Futuro del{' '}
-              <span className="gradient-text">E-commerce</span>{' '}
+              El Futuro de los{' '}
+              <span className="gradient-text">Negocios</span>{' '}
               está Aquí
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               En <span className="text-primary font-semibold">Luminix.tech</span> desarrollamos ecosistemas completos de IA que no solo automatizan, 
-              sino que crean <span className="text-primary font-semibold">experiencias de compra extraordinarias</span> mientras 
-              optimizan cada aspecto de tu operación comercial.
+              sino que crean <span className="text-primary font-semibold">experiencias extraordinarias para tus clientes</span> mientras 
+              optimizan cada aspecto de tu operación empresarial.
             </p>
           </div>
 

@@ -32,10 +32,10 @@ const ProcessSection = () => {
           {/* Header */}
           <div className="text-center space-y-6">
             <h2 className="text-4xl lg:text-5xl font-bold">
-              Tu <span className="gradient-text">Ecosistema IA</span> en 4 Etapas
+              Tu <span className="gradient-text">Ecosistema IA</span> en 3 Etapas
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Proceso probado para transformar tu e-commerce en una máquina de ventas inteligente
+              Proceso probado para transformar tu empresa en una operación inteligente y automatizada
             </p>
           </div>
 

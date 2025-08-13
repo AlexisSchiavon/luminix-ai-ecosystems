@@ -16,7 +16,7 @@ const CTASection = () => {
             </h2>
             
             <p className="text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Trabajamos exclusivamente con <span className="text-primary font-bold">3 e-commerce por mes</span> para 
+              Trabajamos exclusivamente con <span className="text-primary font-bold">3 empresas por mes</span> para 
               garantizar implementaciones extraordinarias
             </p>
           </div>
@@ -40,7 +40,7 @@ const CTASection = () => {
               className="btn-hero pulse-purple group text-xl px-12 py-6"
               onClick={() => window.open('https://calendly.com/alexis-schiavon/consultoria-gratuita-con-ia-en-clave', '_blank')}
             >
-              Evaluar mi E-commerce Gratis
+              Evaluar mi Empresa Gratis
               <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="text-sm text-muted-foreground mt-4">

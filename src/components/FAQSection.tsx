@@ -21,7 +21,7 @@ const FAQSection = () => {
     },
     {
       question: "¿Cómo se integra con nuestras herramientas actuales?",
-      answer: "Conectamos nativamente con Shopify, WooCommerce, redes sociales, herramientas de email marketing y más de 100 plataformas. La migración preserva todos tus datos históricos y configuraciones."
+      answer: "Conectamos nativamente con CRM existentes, plataformas de ventas, herramientas de marketing y más de 100 aplicaciones empresariales. La migración preserva todos tus datos históricos y configuraciones."
     },
     {
       question: "¿Qué nivel de personalización ofrecen los agentes?",

@@ -31,7 +31,7 @@ const HeroSection = () => {
           {/* Main Title */}
           <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white text-shadow">
             <TypingEffect 
-              text="Revoluciona tu E-commerce" 
+              text="Revoluciona tu Empresa" 
               speed={80}
               className="block"
             />
@@ -46,7 +46,7 @@ const HeroSection = () => {
             Plataformas completas que integran <span className="text-primary font-semibold">CRM</span>, 
             <span className="text-primary font-semibold"> agentes autónomos</span> y 
             <span className="text-primary font-semibold"> entornos colaborativos</span> para 
-            maximizar tus ventas online
+            maximizar tus resultados comerciales
           </p>
           
           {/* CTA Button */}
@@ -73,7 +73,7 @@ const HeroSection = () => {
             </div>
             <div className="space-y-2">
               <div className="text-3xl font-bold text-primary">500k+</div>
-              <div className="text-gray-300">Productos Soportados</div>
+              <div className="text-gray-300">Empresas Impactadas</div>
             </div>
           </div>
         </div>
