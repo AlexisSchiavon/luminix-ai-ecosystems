@@ -21,7 +21,7 @@ const Footer = () => {
                   <Sparkles className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold">Luminix.tech</h3>
+                  <h3 className="text-2xl font-bold">Lumixia.tech</h3>
                   <p className="text-primary text-sm">Ecosistemas IA para Empresas del Futuro</p>
                 </div>
               </div>
@@ -99,7 +99,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               {/* Copyright */}
               <p className="text-gray-400 text-sm">
-                © 2025 Luminix.tech. Todos los derechos reservados.
+                © 2025 Lumixia.tech. Todos los derechos reservados.
               </p>
 
               {/* Legal Links */}

@@ -30,7 +30,7 @@ const BenefitsSection = () => {
           <div className="text-center space-y-6">
             <h2 className="text-4xl lg:text-5xl font-bold">
               Lo que hace diferente a{' '}
-              <span className="gradient-text">Luminix.tech</span>
+              <span className="gradient-text">Lumixia.tech</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               No solo implementamos tecnología, creamos ecosistemas que evolucionan contigo

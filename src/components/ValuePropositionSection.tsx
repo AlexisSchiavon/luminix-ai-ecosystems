@@ -36,7 +36,7 @@ const ValuePropositionSection = () => {
               está Aquí
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              En <span className="text-primary font-semibold">Luminix.tech</span> desarrollamos ecosistemas completos de IA que no solo automatizan, 
+              En <span className="text-primary font-semibold">Lumixia.tech</span> desarrollamos ecosistemas completos de IA que no solo automatizan, 
               sino que crean <span className="text-primary font-semibold">experiencias extraordinarias para tus clientes</span> mientras 
               optimizan cada aspecto de tu operación empresarial.
             </p>

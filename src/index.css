@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Luminix tech design system - Modern AI branding */
+    /* Lumixia tech design system - Modern AI branding */
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
 
@@ -41,7 +41,7 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Custom Luminix colors */
+    /* Custom Lumixia colors */
     --tech-purple: 259 91% 65%;
     --tech-purple-light: 259 91% 75%;
     --tech-purple-dark: 259 91% 55%;
