@@ -22,11 +22,11 @@ const Footer = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold">Luminix.tech</h3>
-                  <p className="text-primary text-sm">Ecosistemas IA para E-commerce del Futuro</p>
+                  <p className="text-primary text-sm">Ecosistemas IA para Empresas del Futuro</p>
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed max-w-md">
-                Transformamos e-commerces con ecosistemas inteligentes que integran CRM, 
+                Transformamos empresas con ecosistemas inteligentes que integran CRM, 
                 agentes autónomos y entornos colaborativos para maximizar resultados.
               </p>
             </div>
@@ -122,7 +122,7 @@ const Footer = () => {
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
               </span>
               <span className="text-xs text-primary font-medium">
-                Transformando el futuro del e-commerce
+                Transformando el futuro de los negocios
               </span>
             </div>
           </div>
