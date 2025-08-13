@@ -9,7 +9,7 @@ const ServicesSection = () => {
       description: "CRM inteligente + Agentes especializados + Analytics predictivo",
       features: [
         "CRM con scoring automático y segmentación predictiva",
-        "Agentes IA para ventas, soporte y recuperación de carritos",
+        "Agentes IA para ventas, soporte y gestión de clientes",
         "Dashboard colaborativo centralizado para tu equipo"
       ],
       gradient: "from-purple-500/10 to-blue-500/10"
@@ -31,7 +31,7 @@ const ServicesSection = () => {
     { icon: ShoppingCart, name: "Agente de Ventas", description: "Cierra deals automáticamente" },
     { icon: MessageSquare, name: "Agente de Soporte", description: "Resuelve consultas 24/7" },
     { icon: BarChart3, name: "Agente Analista", description: "Insights en tiempo real" },
-    { icon: Users, name: "Agente de Retención", description: "Recupera clientes perdidos" }
+    { icon: Users, name: "Agente de Retención", description: "Fideliza y recupera clientes" }
   ];
 
   return (
@@ -42,10 +42,10 @@ const ServicesSection = () => {
           <div className="text-center space-y-6">
             <h2 className="text-4xl lg:text-5xl font-bold">
               <span className="gradient-text">Ecosistemas Inteligentes</span>
-              <br />para E-commerce
+              <br />para tu Empresa
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Soluciones completas que trabajan en perfecta sincronía para revolucionar tu operación comercial
+              Soluciones completas que trabajan en perfecta sincronía para revolucionar tu operación empresarial
             </p>
           </div>
 

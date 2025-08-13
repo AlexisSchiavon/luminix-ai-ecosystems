@@ -17,7 +17,7 @@ const VideoSection = () => (
         <div className="relative w-full aspect-video rounded-2xl overflow-hidden border border-primary/20 shadow-2xl">
           <iframe
             src="https://www.youtube.com/embed/_V_6OPZH4zM"
-            title="Luminix.tech - Ecosistemas IA para E-commerce"
+            title="Luminix.tech - Ecosistemas IA para Empresas"
             className="w-full h-full"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
