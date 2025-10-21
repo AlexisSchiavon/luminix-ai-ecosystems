@@ -54,7 +54,7 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               className="btn-hero pulse-purple group"
-              onClick={() => window.open('https://calendly.com/alexis-schiavon/consultoria-gratuita-con-ia-en-clave', '_blank')}
+              onClick={() => window.open('https://cal.com/alexis-zamora-ia/agenda-alexis', '_blank')}
             >
               Descubrir mi Ecosistema IA
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
