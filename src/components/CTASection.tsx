@@ -38,7 +38,16 @@ const CTASection = () => {
             <Button 
               size="lg" 
               className="btn-hero pulse-purple group text-xl px-12 py-6"
-              onClick={() => window.open('https://cal.com/alexis-zamora-ia/agenda-alexis', '_blank')}
+              onClick={() => {
+                // Track InitiateCheckout event before redirecting
+                if (typeof window !== 'undefined' && (window as any).fbq) {
+                  (window as any).fbq('track', 'InitiateCheckout', {
+                    content_name: 'Inicio Reserva Cita',
+                    content_category: 'Booking'
+                  });
+                }
+                window.open('https://cal.com/alexis-zamora-ia/agenda-alexis', '_blank');
+              }}
             >
               Evaluar mi Empresa Gratis
               <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform" />
